@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 .navbar {
     border: 2px solid pink;
     display: flex;
