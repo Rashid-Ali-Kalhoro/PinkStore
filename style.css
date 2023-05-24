@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'poppins', sans-serif;
+}
+
 .container {
     max-width: 1300px;
     margin: auto;
@@ -12,8 +16,8 @@
     padding-right: 25px;
 }
 
+
 .navbar {
-    border: 2px solid pink;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -49,7 +53,6 @@ p {
 } */
 
 .row {
-    border: 2px solid red;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -59,11 +62,9 @@ p {
 .col-2 {
     flex-basis: 50%;
     min-width: 300px;
-    border: 1px solid red;
 }
 
 .col-2 img {
-    border: 1px solid red;
     max-width: 100%;
     padding: 50px 0 ;
 }
@@ -72,4 +73,24 @@ p {
     font-size: 50px;
     line-height: 60px;
     margin: 25px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: rgba(239, 40, 158, 11);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    font-family: 'underdog';
+}
+
+.header {
+    background: radial-gradient(#fdcbdf,#e16898);
+    /* font-family: 'poppins'; */
+    /* font-family: 'lemon milk'; */
+}
+
+.header .row {
+    margin-top: 70px;
 }
