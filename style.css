@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Graduate&family=Montserrat+Subrayada:wght@700&family=Montserrat:ital,wght@0,100;0,400;0,700;1,100&family=Russo+One&family=Underdog&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Montserrat+Subrayada:wght@700&family=Montserrat:ital,wght@0,100;0,400;0,700;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400&family=Russo+One&family=Underdog&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -77,7 +78,7 @@ p {
 
 .btn {
     display: inline-block;
-    background: rgba(239, 40, 158, 11);
+    background: rgba(239,40,158,11);
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
@@ -87,9 +88,11 @@ p {
                  4px 4px 8px rgba(43, 40, 40, 0.647),
                  inset -5px -5px 5px rgba(249,247, 247, 0.727),
                  inset 5px 5px 5px rgba(45, 40, 40, 0.647);
-    transition: .2s ease box-shadow;
+    transition: .5s ease box-shadow;
 }
 .btn:hover {
+    background: radial-gradient(#eb73a3,#d5276c);
+    /* background: radial-gradient(#4AAFE7,#002E58); */
     box-shadow: -4px -4px 8px rgba(249, 247, 247, 0.727),
                  4px 4px 8px rgba(43, 40, 40, 0.647);
 }
