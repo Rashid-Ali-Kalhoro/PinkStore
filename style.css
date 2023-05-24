@@ -83,6 +83,15 @@ p {
     margin: 30px 0;
     border-radius: 30px;
     font-family: 'underdog';
+    box-shadow: -4px -4px 8px rgba(249, 247, 247, 0.727),
+                 6px 6px 8px rgba(43, 40, 40, 0.647),
+                 inset -5px -5px 5px rgba(249,247, 247, 0.727),
+                 inset 5px 5px 5px rgba(45, 40, 40, 0.647);
+    transition: .2s ease box-shadow;
+}
+.btn:hover {
+    box-shadow: -4px -4px 8px rgba(249, 247, 247, 0.727),
+                 6px 6px 8px rgba(43, 40, 40, 0.647);
 }
 
 .header {
