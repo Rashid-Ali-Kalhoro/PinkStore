@@ -175,3 +175,15 @@ h4 {
 .star-rating .fa {
     color: #D7009B;
 }
+
+.offer2 .small-container .row {
+    display: flex;
+    flex-direction: row-reverse;
+    /* border: 1px solid pink; */
+    text-align: right;
+    /* margin-left: -50px; */
+}
+
+.offer2 .small-container .col-2 img {
+    margin-left: 40px;
+}
