@@ -10,6 +10,10 @@ body {
     font-family: 'poppins', sans-serif;
 }
 
+span {
+    color: #d5276c;
+}
+
 .container {
     max-width: 1300px;
     margin: auto;
@@ -210,10 +214,27 @@ small {
 .testimonial .col-3 {
     text-align: center;
     padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform .5s;
+}
+.testimonial .col-3:hover {
+    transform: translateY(-10px);
 }
 
 .testimonial .col-3 img {
     width: 50px;
     margin-top: 20px;
     border-radius: 50%;
+}
+
+.fa.fa-quote-left {
+    font-size: 34px;
+    color: #f44189;
+}
+
+.col-3 p {
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
 }
