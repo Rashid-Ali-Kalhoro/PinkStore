@@ -176,6 +176,12 @@ h4 {
     color: #D7009B;
 }
 
+.offer {
+    background: radial-gradient(#fdcbdf,#e16898);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
 .offer2 .small-container .row {
     display: flex;
     flex-direction: row-reverse;
@@ -186,4 +192,12 @@ h4 {
 
 .offer2 .small-container .col-2 img {
     margin-left: 40px;
+}
+
+.col-2 .offer-image {
+    padding: 50px;
+}
+
+small {
+    color: #555;
 }
