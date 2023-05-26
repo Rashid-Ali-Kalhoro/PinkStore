@@ -80,6 +80,10 @@ p {
     margin: 25px 0;
 }
 
+.col-2 h1 span {
+    color: #000;
+}
+
 .btn {
     display: inline-block;
     background: rgba(239,40,158,11);
