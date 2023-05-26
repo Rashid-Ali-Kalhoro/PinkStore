@@ -292,10 +292,38 @@ small {
 
 .footer-col-2 {
     flex: 1;
-    text-align: center;
+    text-align: left;
 }
 
 .footer-col-2 img {
     width: 180px;
     margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.footer p {
+    text-align: center;
 }
