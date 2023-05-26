@@ -336,7 +336,7 @@ ul {
 }
 
 
-/* MEDIA QUERY */
+/* ---------- MEDIA QUERY FOR TABLET ---------- */
 @media only screen and (max-width: 800px) {
     nav ul {
         position: absolute;
@@ -364,3 +364,15 @@ ul {
         cursor: pointer;
     }
 }
+/* ---------- END MEDIA QUERY FOR TABLET ---------- */
+
+/* ---------- MEDIA QUERY FOR MOBILE ---------- */
+@media only screen and (max-width: 600px) {
+    .row {
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4 {
+        flex-basis: 100%;
+    }
+}
+/* ---------- END MEDIA QUERY FOR MOBILE ---------- */
