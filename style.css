@@ -292,12 +292,13 @@ small {
 
 .footer-col-2 {
     flex: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .footer-col-2 img {
     width: 180px;
     margin-bottom: 20px;
+    /* text-align: left; */
 }
 
 .footer-col-3, .footer-col-4 {
@@ -324,6 +325,23 @@ ul {
     margin: 20px 0;
 }
 
-.footer p {
+.copyright{
     text-align: center;
+}
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+}
+
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 800px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100px;
+    }
 }
