@@ -357,6 +357,7 @@ select:focus {
 }
 
 .page-btn span {
+    color: #000;
     display: inline-block;
     border: 1px solid #d5276c;
     margin-left: 10px;
@@ -365,6 +366,10 @@ select:focus {
     text-align: center;
     line-height: 40px;
     cursor: pointer;
+}
+.page-btn span:hover {
+    background: #D7009B;
+    color: #fff;
 }
 /* --------- END ALL PROJECTS --------- */
 
