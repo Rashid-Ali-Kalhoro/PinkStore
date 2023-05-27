@@ -345,7 +345,11 @@ ul {
 }
 
 select {
-    border: 1px solid #;
+    border: 1px solid #d5276c;
+    padding: 10px;
+}
+select:focus {
+    outline: none;
 }
 /* --------- END ALL PROJECTS --------- */
 
