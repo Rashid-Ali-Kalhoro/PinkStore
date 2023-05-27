@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products / PinkStore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!------------ Header ------------>
+        <div class="container">
+            <div class="navbar">
+                <div class="nav-logo">
+                    <img src="img/PinkStoreLogoBlack.png" alt="logo" width="150px">
+                </div>
+                <nav class="nav">
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="img/cart.png" width="30px" height="30px">
+                <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    <!------------ End Header ------------>
+
+
+    <!------------ Featured Products ------------>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Procducts</h2>
+            <select name="" id="">
+                <option value="">Defualt</option>
+                <option value="">by Price</option>
+                <option value="">by Popularity</option>
+                <option value="">by Rating</option>
+                <option value="">by Sale</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="img/product-1.jpg">
+                <h4>Pink Printed T-Shirt</h4>
+                <div class="star-rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-2.jpg">
+                <h4>Converse</h4>
+                <div class="star-rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$48.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-3.jpg">
+                <h4>FUBAR</h4>
+                <div class="star-rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-4.jpg">
+                <h4>Louis Philippe Sport</h4>
+                <div class="star-rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fas fa-star-half-alt"></i>
+                </div>
+                <p>$40.00</p>
+            </div>
+        </div>
+    </div>
+    <!-- ---------- End Featured Products ---------- -->
+
+
+    <!------------ Footer ------------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Android and IOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png">
+                        <img src="img/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/PinkStoreLogoWhite.png" alt="">
+                    <p>Our Purpose is to sustainably make the pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affliate</li>
+                    </ul>
+                </div>   
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright @ 2023 . All right Reserved developer.rak</p>
+        </div>
+    </div>
+    <!------------ End Footer ------------>
+
+    <!------------ SCRIPT FOR TOGGLE MENU ------------>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if (MenuItems.style.maxHeight == "0px") 
+            {
+                MenuItems.style.maxHeight = "350px"
+            }
+            else 
+            {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+    <!------------ END SCRIPT FOR TOGGLE MENU ------------>
+</body>
+</html>
