@@ -338,6 +338,17 @@ ul {
     display: none;
 }
 
+/* --------- ALL PROJECTS --------- */
+.row-2 {
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+select {
+    border: 1px solid #;
+}
+/* --------- END ALL PROJECTS --------- */
+
 
 /* ---------- MEDIA QUERY FOR TABLET ---------- */
 @media only screen and (max-width: 800px) {
