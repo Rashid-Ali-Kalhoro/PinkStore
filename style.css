@@ -398,13 +398,23 @@ select:focus {
     margin-top: 20px;
 }
 
-.single-product select input {
+.single-product input {
     width: 50px;
     height: 40px;
-    padding-left: 10px;
-    font-size: 20px;
+    padding: 10px;
+    padding-top: 5px;
+    font-size: 15px;
     margin-right: 10px;
     border: 1px solid #D7009B;
+}
+
+input:focus {
+    outline: none;
+}
+
+.single-product .fas {
+    color: #f44189;
+    margin-left: 10px;
 }
 /* --------- END PRODUCT DETAILS --------- */
 
