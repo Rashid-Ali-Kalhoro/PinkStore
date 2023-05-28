@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!------------ Header ------------>
     <div class="container">
         <div class="navbar">
             <div class="nav-logo">
-                   <img src="img/PinkStoreLogoBlack.png" alt="logo" width="150px">
+                <img src="img/PinkStoreLogoBlack.png" alt="logo" width="150px">
             </div>
             <nav class="nav">
                 <ul id="MenuItems">
@@ -35,17 +37,20 @@
     <div class="small-container single-product">
         <div class="row">
             <div class="col-2">
-                <img src="img/gallery-1.jpg" width="100%">
-            
+                <img src="img/gallery-1.jpg" width="100%" id="ProductImg">
+
                 <div class="small-img-row">
                     <div class="small-img-col">
-                        <img src="img/gallery-2.jpg" width="100%">
+                        <img src="img/gallery-1.jpg" width="100%" class="small-img">
                     </div>
                     <div class="small-img-col">
-                       <img src="img/gallery-3.jpg" width="100%">
+                        <img src="img/gallery-2.jpg" width="100%" class="small-img">
                     </div>
                     <div class="small-img-col">
-                       <img src="img/gallery-4.jpg" width="100%">
+                        <img src="img/gallery-3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/gallery-4.jpg" width="100%" class="small-img">
                     </div>
                 </div>
             </div>
@@ -66,12 +71,22 @@
                 <a href="" class="btn">Add to Cart</a>
                 <h3>Product Details <i class="fas fa-indent"></i></h3>
                 <br>
-                <p>Give Your summer wardrobe a style upgrade with the HRX Men's active T-shirt. Team it with a pair for an evening out with the guys.</p>
+                <p>Give Your summer wardrobe a style upgrade with the HRX Men's active T-shirt. Team it with a pair for
+                    an evening out with the guys.</p>
             </div>
         </div>
     </div>
     <!------------ End Single Product Details ------------>
-        
+
+
+    <!------------ TITLE ------------>
+        <div class="small-container">
+            <div class="row row-2">
+                <h2><span>Related</span> Products</h2>
+                <p>View More</p>
+            </div>
+        </div>
+    <!------------ END TITLE ------------>
 
     <!------------ Featured Products ------------>
     <div class="small-container">
@@ -143,7 +158,8 @@
                 </div>
                 <div class="footer-col-2">
                     <img src="img/PinkStoreLogoWhite.png" alt="">
-                    <p>Our Purpose is to sustainably make the pleasure and Benefits of Sports Accessible to the Many.</p>
+                    <p>Our Purpose is to sustainably make the pleasure and Benefits of Sports Accessible to the Many.
+                    </p>
                 </div>
                 <div class="footer-col-3">
                     <h3>Useful Links</h3>
@@ -153,7 +169,7 @@
                         <li>Return Policy</li>
                         <li>Join Affliate</li>
                     </ul>
-                </div>   
+                </div>
                 <div class="footer-col-4">
                     <h3>Follow Us</h3>
                     <ul>
@@ -176,17 +192,40 @@
 
         MenuItems.style.maxHeight = "0px";
 
-        function menutoggle(){
-            if (MenuItems.style.maxHeight == "0px") 
-            {
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
                 MenuItems.style.maxHeight = "350px"
             }
-            else 
-            {
+            else {
                 MenuItems.style.maxHeight = "0px"
             }
         }
     </script>
     <!------------ END SCRIPT FOR TOGGLE MENU ------------>
+
+    <!------------ SCRIPT FOR IMAGE GALLERY ------------>
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+
+            SmallImg[0].onclick = function()
+            {
+                ProductImg.src = SmallImg[0].src;
+            }
+            SmallImg[1].onclick = function()
+            {
+                ProductImg.src = SmallImg[1].src;
+            }
+            SmallImg[2].onclick = function()
+            {
+                ProductImg.src = SmallImg[2].src;
+            }
+            SmallImg[3].onclick = function()
+            {
+                ProductImg.src = SmallImg[3].src;
+            }
+    </script>
+    <!------------ END SCRIPT FOR IMAGE GALLERY ------------>
 </body>
+
 </html>

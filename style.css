@@ -416,6 +416,16 @@ input:focus {
     color: #f44189;
     margin-left: 10px;
 }
+
+.small-img-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
 /* --------- END PRODUCT DETAILS --------- */
 
 
