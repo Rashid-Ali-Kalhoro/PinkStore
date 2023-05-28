@@ -373,6 +373,26 @@ select:focus {
 }
 /* --------- END ALL PROJECTS --------- */
 
+/* --------- PRODUCT DETAILS --------- */
+.single-product {
+    margin-top: 80px;
+}
+
+.single-product .col-2 img {
+    padding: 0px;
+}
+
+.single-product .col-2 {
+    padding: 20px;
+}
+
+.single-product h4 {
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+/* --------- END PRODUCT DETAILS --------- */
+
 
 /* ---------- MEDIA QUERY FOR TABLET ---------- */
 @media only screen and (max-width: 800px) {
