@@ -391,6 +391,21 @@ select:focus {
     font-size: 22px;
     font-weight: bold;
 }
+
+.single-product select {
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.single-product select input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #D7009B;
+}
 /* --------- END PRODUCT DETAILS --------- */
 
 
