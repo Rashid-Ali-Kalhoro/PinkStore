@@ -428,6 +428,17 @@ input:focus {
 }
 /* --------- END PRODUCT DETAILS --------- */
 
+/* --------- CART ITEMS --------- */
+.cart-page {
+    margin: 80px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+/* --------- END CART ITEMS --------- */
+
 
 /* ---------- MEDIA QUERY FOR TABLET ---------- */
 @media only screen and (max-width: 800px) {
