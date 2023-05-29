@@ -471,6 +471,17 @@ td img {
     height: 80px;
     margin-right: 10px;
 }
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table {
+    border-top: 3px solid #f44189;
+    width: 100%;
+    max-width: 350px;
+}
 /* --------- END CART ITEMS --------- */
 
 
