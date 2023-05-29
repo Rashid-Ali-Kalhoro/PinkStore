@@ -480,7 +480,15 @@ td img {
 .total-price table {
     border-top: 3px solid #f44189;
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
 }
 /* --------- END CART ITEMS --------- */
 
@@ -536,5 +544,14 @@ td img {
         font-size: 26px;
         line-height: 22px;
     }
+
+    .cart-page {
+        margin-top: 50px;
+    }
+    
+    .cart-info p {
+        display: none;
+    }
+
 }
 /* ---------- END MEDIA QUERY FOR MOBILE ---------- */
