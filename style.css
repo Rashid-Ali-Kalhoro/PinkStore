@@ -499,14 +499,22 @@ th:last-child {
 }
 
 .form-container {
-    background: #fff;
+    background: radial-gradient(#fdcbdf,#f892bb);
+    /* background: #f69dc1; */
     width: 300px;
     height: 400px;
     position: relative;
     text-align: center;
     padding: 20px 0;
     margin: auto;
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    border: 2px ridge #ec6098;
+    box-shadow: -4px -4px 8px rgba(249, 247, 247, 0.727),
+                 4px 4px 8px rgba(43, 40, 40, 0.647),
+                 inset -5px -5px 5px rgba(249,247, 247, 0.727),
+                 inset 5px 5px 5px rgba(45, 40, 40, 0.647);
+    /* box-shadow: 0 0 20px 0px rgba(43,40,40,0.647); */
+    overflow: hidden;
 }
 
 .form-container span {
@@ -536,6 +544,12 @@ form input {
     margin: 10px 0;
     padding: 0 10px;
     border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eb73a3;
+    color: white;
+}
+::placeholder {
+    color: #fff;
 }
 
 form .btn {
@@ -546,6 +560,12 @@ form .btn {
 }
 form .btn:focus {
     outline: none;
+}
+
+.form-container .forgot {
+    display: block;
+    text-align: right;
+    margin: 10px;
 }
 
 #LoginForm {
